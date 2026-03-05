@@ -14,8 +14,10 @@ wire c1, c2, c3, c4;
     full_adder fa2(.A(A[2]), .B(B[2]), .Cin(c2),   .Y(s0[2]), .Cout(c3));
     full_adder fa3(.A(A[3]), .B(B[3]), .Cin(c3),   .Y(s0[3]), .Cout(c4));
 
+    // Add the end-around carry from the MSB back to the LSB (1's complement rule)
     assign S = s0 + {3'b000, c4};
     
 endmodule  
+
 
 
