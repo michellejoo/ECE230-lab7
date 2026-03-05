@@ -12,8 +12,16 @@ In this lab you've learned the basics of number theory as it relates to subtract
 | Question 3 | Your answers to the question | 25% |
 
 ## Names
+Michelle Joo
+Matt DeRoos
 
 ## Summary
+In this lab we looked at how subtraction using full adders and half subtractor works. We compared the behavior of a half subtractor with a half adder from the previous lab. The truth tables for both circuits are similar. The half subtractor outputs a borrow instead of a carry like the full adder.
+
+Ones complement allows subtraction and it has an end‑around carry when a carry is output from the MSB
+most significant bit.
+
+Twos complement is implemented by inverting all bits of a number and then adding one. This method does not need end-arond carries.
 
 ## Lab Questions
 
